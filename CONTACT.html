@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+ <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src=""></a>
+        <div class="name">
+            <h1>HUSKY <br>DIAMONDS</h1>
+            <h5>ARJUNDHAR, Jhapa</h5>
+        </div>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+    
+                 <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="FEATURES.html">FEATURES</li>
+                   <li><a href="DETAILS.html">DETAILS</a></li>
+                   <li><a href="GALLERY.html">GALLERY</a></li>
+                   <li><a href="CONTACT.html">CONTACT</a></li>
+            
+                </ul>
+         </div>
+     
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+ </nav>
+       <h1>CONTACT US</h1>
+
+
+</section>
+
+<!-- -----CONTACT US-- -->
+
+
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+           <div>
+            <i class="fa fa-home"></i> 
+            <span>
+                <h5>Buspark,Arjundhara</h5>
+                <p>Birtmode</p>
+
+            </span>
+           </div> 
+           <div>
+            <i class="fa fa-phone"></i> 
+            <span>
+                <h5>9815967719</h5>
+                <p>sunday to friday, 10Am to 6Pm</p>
+                
+            </span>
+           </div> 
+           <div>
+            <i class="fa fa-envelope-open"></i> 
+            <span>
+                <h5>udayd468@gmail.com</h5>
+                <p>Email us your query</p>
+                
+            </span>
+           </div> 
+
+           <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1078.0641427484352!2d88.00746955976969!3d26.654806651322122!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2snp!4v1691245787219!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+        </section>
+
+           <div class="contact-col">
+            <form action="Form-handler.php" method="post">
+                <input type="text"name="name" placeholder="Enter your name"required>
+                <input type="email"name="email" placeholder="Enter your email"required>
+                <input type="text"name="query" placeholder="Enter query"required>
+                <textarea rows="8"  name="message"placeholder="Message" reqired></textarea>
+                <button type="submit" class="hero-btn red-btn">send message</button>
+            </form>
+
+           </div>
+        </div>
+    </div>
+</section>
+
+
+<!----Footer--->
+
+<sectioon class="Footer">
+    <h4>About Us</h4>
+    <p>
+        Building house is emotion for many people so we care about their feelings and always try to provoide them the best ever to our abiltiy .
+        </p>
+
+    <div class="icon">
+        
+        <a href="https://www.facebook.com/profile.php?id=100036100186208 "target="blank">
+            <i class="fa fa-facebook"></i> 
+        </a>
+        <a href="">
+            <i class="fa fa-instagram"></i> 
+        </a>
+        <a href="">
+            <i class="fa fa-twitter"></i> 
+
+        </a>
+     </div>
+    <P>@copyright all right reserved 2023</P>
+</section>
+
+<!-- ----javascript for Toggle Menu--- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>

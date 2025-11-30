@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+ <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src=""></a>
+        <div class="name">
+            <h1>HUSKY <br>DIAMONDS</h1>
+            <h5>ARJUNDHAR, Jhapa</h5>
+        </div>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+    
+                 <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="FEATURES.html">FEATURES</li>
+                   <li><a href="DETAILS.html">DETAILS</a></li>
+                   <li><a href="GALLERY.html">GALLERY</a></li>
+                   <li><a href="CONTACT.html">CONTACT</a></li>
+            
+                </ul>
+         </div>
+     
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+ </nav>
+       <h1>DETAILS</h1>
+
+
+</section>
+<!-- ---DETAILS-- -->
+
+<section class="DETAILS">
+    <h1> We offer the best</h1>
+    <p>
+        We  wil provide you the best experience you will ever have in making housing.
+
+    </p>
+    <div class="row">
+        <div class="details-col">
+            <h3>SUPERVISION</h3>
+            <p> we provide you the best experiensd and qualified engineers to supervise your housing .
+                Providing proper guidence to the worker and maintaining and assuring the quality of material used building your dream.
+            </p>
+        </div>
+        <div class="details-col">
+            <h3>MATERIAL</h3>
+            <p>We use the top class materials certified by the government to provide a long life to your dream house. </p>
+         </div>
+        <div class="details-col">
+            <h3>TIME EFFICIENCY</h3>
+            <p>Managememt of time and accuracy to complete the project in proper time  is one of our best quaity.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- ----campus--- -->
+<section class="campus">
+    <h1>Our achievements</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, iste?</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/road.jpg">
+             <div class="layer">
+                <h3>ROAD</h3>
+             </div>
+            
+        </div>
+        
+        <div class="campus-col">
+            <img src="https://th.bing.com/th/id/OIP.kKB5eS9PAitV7uI5h6mhtAHaEw?pid=ImgDet&rs=1">
+             <div class="layer">
+                <h3>BRIDGE</h3>
+             </div>
+            
+        </div>
+        <div class="campus-col">
+            <img src="https://th.bing.com/th/id/R.e440015ce60a38f6b6a8f45b180068fb?rik=W3plX9QYD5rP2w&riu=http%3a%2f%2fwww.nairaland.com%2fattachments%2f4731923_image_jpeg_jpeg6f95b5e7a24ad4fc0808d6698fd37362&ehk=ybCnPC2hd6CQOVfMUQsSMxPzWbY%2baZaevc1T%2bco7xu4%3d&risl=&pid=ImgRaw&r=0">
+             <div class="layer">
+                <h3>BUILDING</h3>
+             </div>
+        </div>
+     </div>
+</section>
+
+
+
+<!----Footer--->
+
+<sectioon class="Footer">
+    <h4>About Us</h4>
+    <p>
+        Building house is emotion for many people so we care about their feelings and always try to provoide them the best ever to our abiltiy .
+        </p>
+    <div class="icon">
+        
+        <a href="https://www.facebook.com/profile.php?id=100036100186208 "target="blank">
+            <i class="fa fa-facebook"></i> 
+        </a>
+        <a href="">
+            <i class="fa fa-instagram"></i> 
+        </a>
+        <a href="">
+            <i class="fa fa-twitter"></i> 
+
+        </a>
+     </div>
+    <P>@copyright all right reserved 2023</P>
+</section>
+
+<!-- ----javascript for Toggle Menu--- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>
